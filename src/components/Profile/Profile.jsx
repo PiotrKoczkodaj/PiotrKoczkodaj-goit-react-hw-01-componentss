@@ -1,5 +1,5 @@
-
-export const Profile = ({avatar,tag,location,stats,username,}) => {
+export const Profile = ({ avatar, tag, location, stats, username, }) => {
+    
     return (
         
             <div className="profile">
