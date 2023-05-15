@@ -1,4 +1,5 @@
 import styles from './Statistics.module.css';
+import PropTypes from "prop-types";
 
 export const Statistics = ({ title, stats }) => {
    
@@ -16,4 +17,9 @@ export const Statistics = ({ title, stats }) => {
 </section>
 
     )
+}
+
+Statistics.propTypes = {
+  title: PropTypes.string.isRequired,
+  stats:PropTypes.array.isRequired
 }
