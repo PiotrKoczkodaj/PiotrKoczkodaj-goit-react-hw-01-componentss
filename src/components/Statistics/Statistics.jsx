@@ -1,11 +1,13 @@
-export const Statistics = ({ title,stats }) => {
+import styles from './Statistics.module.css';
+
+export const Statistics = ({ title, stats }) => {
    
     return (
-<section className="statistics">
+<section className={styles.statistics}>
 <h2 className="title">{title}</h2>
-  <ul className="stat-list">
+  <ul className={styles.statList}>
     {stats.map(stat => (
-                <li key={stat.id} className="item">
+                <li key={stat.id} className={styles.item}>
                 <span className="label">{stat.label}</span>
                 <span className="percentage">{stat.percentage}%</span>
     </li>

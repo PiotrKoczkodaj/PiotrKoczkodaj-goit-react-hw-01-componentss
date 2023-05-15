@@ -1,0 +1,24 @@
+.statList{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.statistics{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff4e6;
+    border-radius: 5%;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246 225 225);
+   
+}
+.item:not(:last-child){
+    margin-right: 8px;
+    
+}
