@@ -1,0 +1,28 @@
+.avatar{
+    height:150px;
+    border-radius: 55%;
+}
+.description{
+        font-size: 15px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: bold;
+        display: flex
+}
+.stats{
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    border-top: 1px solid;
+}
+.profile{
+    border: 1px solid;
+    border-radius: 4%;
+    box-shadow: -1px 1px 8px black;
+}
